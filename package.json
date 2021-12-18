@@ -1,13 +1,13 @@
 {
   "name": "authjwt",
   "version": "1.0.0",
-  "description": "",
+  "description": "json web token",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eduart",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",

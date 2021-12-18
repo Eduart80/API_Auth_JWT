@@ -32,10 +32,10 @@ app.post('/api/login', (req,res)=>{
         userName:'Tom',
         email:'tom@test.com'
     }
-    jwt.sign({user}, 'secretkey',{ expiresIn:'40s' },(err, token)=>{
-      if(err) console.log(message.err)
-        res.json({token})
-    })
+    jwt.sign({ user }, "secretkey", { expiresIn: "1m" }, (err, token) => {
+      if (err) console.log(message.err);
+      res.json({ token });
+    });
 })
 //FORMAT TOKEN
 //Authorization: Bearer <access_token>
